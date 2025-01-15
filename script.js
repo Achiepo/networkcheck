@@ -44,7 +44,7 @@ searchInput.addEventListener('keypress', (e) => {
         console.log('Recherche pour:', searchInput.value);
 
         // Exemple de logique pour récupérer les données météo d'une ville
-        const apiKey = '4305fdeeff227bdc1a27ba3c72b57ad4'; 
+        const apiKey = '30e90437550af7f335a6e6cb2eee2c91'; 
         const city = searchInput.value;
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
